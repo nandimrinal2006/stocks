@@ -19,7 +19,7 @@ def filter_xls_rows(input_file, output_file, column_name, target_value):
 input_xls = "Equity_Transaction_Summary_12-26may2025.xlsx"
 output_xls = "filtered_data.xlsx"
 column_to_check = "Stock Name"
-value_to_match = "C D S L"
+value_to_match = "Nip. India Gold"
 
 filter_xls_rows(input_xls, output_xls, column_to_check, value_to_match)
 
