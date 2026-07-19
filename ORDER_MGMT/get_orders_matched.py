@@ -35,9 +35,9 @@ args = parser.parse_args()
 #find_column_number(args.input_file, args.target_column_name)
 
 if args.input_file=="":
-    args.input_file="OrderBook_Equity (1).xlsx" 
+    args.input_file="Orders_sell_all.xlsx" 
 if args.order_status=="":
-    args.order_status="Executed" 
+    args.order_status="Pending" 
 
 args.input_file="order_files/"+args.input_file
   
