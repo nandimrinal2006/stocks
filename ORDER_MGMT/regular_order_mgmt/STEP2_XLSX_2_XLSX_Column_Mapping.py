@@ -50,7 +50,7 @@ def process_excel(input_file, output_file, mapping_str):
         print(f"An error occurred: {e}")
 
 # --- Execution ---
-user_mapping = "C=>Date, E=>Stock, G=>Order Type (Buy/Sell), H=>Quantity, K=>Price" 
+user_mapping = "C=>Date, E=>Stock, G=>Order Type (Buy/Sell), H=>Quantity, K=>Price, P=>Status" 
  
 print("Converts Excel column letters (A, B, C, ..., AA, etc.) to a set of provided column names. Input will be in this format: "+user_mapping) 
  
